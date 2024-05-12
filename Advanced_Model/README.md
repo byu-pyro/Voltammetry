@@ -1,12 +1,12 @@
-#Advanced Simultation Tool for Cyclic Voltammetry of Electrodeposition Reactions in High-Temperature Molten Salts
+# Advanced Simultation Tool for Cyclic Voltammetry of Electrodeposition Reactions in High-Temperature Molten Salts
 
 This Code was First Uploaded on 5/10/2024 by Braden Clayton. It was designed and developed by Michael Stoddard as part of his graduate studies while at Brigham Young University.
 
-## Acknowledgement and Attribution:
+## Acknowledgement and Attribution
 This code is freely available, however it is **required** to cite the following when using this code:
 Stoddard, M. (2024). *The Advancement of Experimental and Computation Tools for the Study of Molten Salt Chemistry to Facilitate the Extraction  of Strategic Elements in Nuclear Applications* [Ph.D. Dissertation]. Brigham Young University.
 
-## Purpose: 
+## Purpose 
 Intended to be an advanced simulation tool applicable to a variety of electrochemical systems, this code is still under development. The code is being developed specifically for voltammetry of electrodeposition in high-temperature molten salts (e.g., LiCl-KCl, FLiBe). It's intended to relax the assumptions involved in the Berzins-Delahay model, which is commonly used in analyzing electrodeposition peaks in high-temperature molten salts. However, the Berzins-Delahay model assumes:
   -  unit activity of the deposits (i.e., pure),
   - ideal behavior of analytes ions (i.e., activity coefficient of 1), and
@@ -19,7 +19,7 @@ In it current form, this advanced model, has include the following missing in th
 
 Users are encourage to use this model and provide feedback to accelerate its development and validation
 
-## Structure:
+## Structure
 The code currently (5/10/2024) consists of two tools. The first is called batch creation and the second quality control assessment. 
 Batch creation can be considered a tool for general applications of the code.
   Files and directories pertaining to this tool include:
