@@ -4,5 +4,6 @@ The quality control assessment is a developer's tool used to compare iterations 
 
 ## Directory Structure 
 * Test
+  - check
 
 ## Instructions for Conducting an Assessment 
