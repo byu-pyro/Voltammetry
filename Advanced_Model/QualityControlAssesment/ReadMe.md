@@ -6,7 +6,7 @@ The quality control assessment is a developer's tool used to compare iterations 
 * QCbase
   - QCbase is a directory for the collection of data generated with an older, more established version of the code. Before it can be used the data must be generated. this can be done by first calling QC_Control.py by typing *python QC_Control.py* in the command line. This generates a batch of files for each of the following:
 
-- * high concentration (10 mol% UCl3)
+> high concentration (10 mol% UCl3)
 #* low concentration (0.1 wt% UCl3) 
 #* fast scan rate (1 V/s) 
 #* low scan rate (10 mV/s)
