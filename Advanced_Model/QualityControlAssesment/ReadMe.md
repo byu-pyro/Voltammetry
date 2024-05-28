@@ -3,7 +3,7 @@
 The quality control assessment is a developer's tool used to compare iterations of the code. This is done by creating a test folder whose data is generated using a new iteration of the functions.py. Once the data has been generated it is compared to a base set of data to check its performance. In this description, we will explore the structure of this directory, explain the use of each file, and describe the process for conducting an assessment.
 
 ## Directory Structure 
-* QCbase
+* ### QCbase
   - QCbase is a directory for the collection of data generated with an older, more established version of the code. Before it can be used the data must be generated. this can be done by first calling QC_Control.py by typing *python QC_Control.py* in the command line. This generates a batch of files for every combination of the following:
 
       * high concentration (10 mol% UCl3)
@@ -18,10 +18,14 @@ The quality control assessment is a developer's tool used to compare iterations 
         *  Test ohmic losses                                               ###1000
         *  Test ohmic losses with 85% IR compensation                      ###1000b
         *  Test solid activity, ion activity, migration with complexation, and ohmic losses with IR compensation.                                         ###1111
- 
-* test_setup
+
+   Once those are created, the runs may be started by calling *bash QC_base_check.sh*. This will submit and run each pickle data file to the supercomputer. Once complete, the run will:
+          1) update the pickle file with a full data set
+          2) print a *.out file for each data set with information on the speed at which data points were collected
+          3) create a png file for the 
+* ### test_setup
   - explanation  
-* demo_test_2024-5-09
+* ### demo_test_2024-5-09
   - explanation 
 
 ## Instructions for Conducting an Assessment 
