@@ -22,7 +22,7 @@ The quality control assessment is a developer's tool used to compare iterations 
    Once those are created, the runs may be started by calling *bash QC_base_check.sh*. This will submit and run each pickle data file to the supercomputer. Once complete, the run will:
           1) update the pickle file with a full data set
           2) print a *.out file for each data set with information on the speed at which data points were collected
-          3) create a png file for the 
+          3) create a png file for the simulation.
 * ### test_setup
   - explanation  
 * ### demo_test_2024-5-09
